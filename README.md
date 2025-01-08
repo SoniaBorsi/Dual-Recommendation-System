@@ -105,9 +105,11 @@ The repository is organized as follows:
    git clone https://github.com/pippotek/Dual-Recommendation-System.git
    cd Dual-Recommendation-System
    ```
-2. **Install Dependencies**: Install the software indicated in `requirements.txt`. 
+2. **Install Dependencies**:
+     - Install Docker following the instructions available at the [Docker Website](https://docs.docker.com)
+     - Install `yq`
 
-3. **Modify Configuration**: Update the `config.yaml` file to set your preferred options and hyperparameters for the ALS model and add your `Wandb API key`.
+4. **Modify Configuration**: Update the `config.yaml` file to set your preferred options and hyperparameters for the ALS model and add your `Wandb API key`.
    
 5. **Start the App**:
    ```
