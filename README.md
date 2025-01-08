@@ -107,16 +107,16 @@ The repository is organized as follows:
    ```
 2. **Install Dependencies**:
      - Install `Docker` following the instructions available at the [Docker Website](https://docs.docker.com)
-     - Install `Docker-compose`
      - Install `yq`:
        for MacOS:
        ```bash
-       pip install yq
+       brew install yq
        ```
        for Ubuntu:
        ```bash
        sudo apt install yq
        ```
+       for Windows: follow the instructions at the [official repository](https://github.com/mikefarah/yq)
 4. **Modify Configuration**: Update the `config.yaml` file to set your preferred options and hyperparameters for the ALS model and add your `Wandb API key`.
    
 5. **Start the App**:
